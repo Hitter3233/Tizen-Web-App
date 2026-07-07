@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* Replace background.jpg with your image file name */
+    background: url('../background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock-container {
+    text-align: center;
+    color: #ffffff;
+    /* Soft dark glow behind text ensures it is readable over any image */
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8); 
+}
+
+#time {
+    font-size: 8rem;
+    font-weight: bold;
+    line-weight: 1;
+}
+
+#date {
+    font-size: 3rem;
+    margin-top: 10px;
+}
