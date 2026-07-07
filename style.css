@@ -25,12 +25,12 @@ body {
 }
 
 #time {
-    font-size: 8rem;
+    font-size: 5rem;
     font-weight: bold;
     line-weight: 1;
 }
 
 #date {
-    font-size: 3rem;
+    font-size: 1rem;
     margin-top: 10px;
 }
