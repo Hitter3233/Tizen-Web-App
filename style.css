@@ -9,7 +9,7 @@ body {
     height: 100vh;
     overflow: hidden;
     /* Replace background.jpg with your image file name */
-    background: url('../background.jpg') no-repeat center center fixed;
+    background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
     font-family: sans-serif;
     display: flex;
