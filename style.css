@@ -21,7 +21,10 @@ body {
     text-align: center;
     color: #000000;
     /* Soft dark glow behind text ensures it is readable over any image */
-    text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.8); 
+    text-shadow:
+    0 0 10px #ffffff,
+    0 0 20px #ffffff,
+    0 0 30px #ffffff;
 }
 
 #time {
