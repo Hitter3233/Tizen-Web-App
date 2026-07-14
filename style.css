@@ -19,9 +19,9 @@ body {
 
 #clock-container {
     text-align: center;
-    color: #ffffff;
+    color: #000000;
     /* Soft dark glow behind text ensures it is readable over any image */
-    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.8); 
+    text-shadow: 0px 4px 20px rgba(255, 255, 255, 0.8); 
 }
 
 #time {
