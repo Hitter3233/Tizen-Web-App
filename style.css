@@ -19,6 +19,12 @@ body {
 
 #clock-container {
     text-align: center;
+}
+
+#time {
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1;
     color: #000000;
     text-shadow:
         -3px -3px 0 #ffffff,
@@ -27,13 +33,13 @@ body {
          3px  3px 0 #ffffff;
 }
 
-#time {
-    font-size: 5rem;
-    font-weight: bold;
-    line-weight: 1;
-}
-
 #date {
     font-size: 1rem;
     margin-top: 10px;
+    color: #000000;
+    text-shadow:
+        -1px 0 0 #ffffff,
+         1px 0 0 #ffffff,
+         0 -1px 0 #ffffff,
+         0  1px 0 #ffffff;
 }
