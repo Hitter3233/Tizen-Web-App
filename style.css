@@ -26,36 +26,12 @@ body {
     font-weight: bold;
     line-height: 1;
     color: #000000;
-    text-shadow:
-        -1px -1px 0 #ffffff,
-         0px -1px 0 #ffffff,
-         1px -1px 0 #ffffff,
-        -1px  0px 0 #ffffff,
-         1px  0px 0 #ffffff,
-        -1px  1px 0 #ffffff,
-         0px  1px 0 #ffffff,
-         1px  1px 0 #ffffff,
-        -2px  0px 0 #ffffff,
-         2px  0px 0 #ffffff,
-         0px -2px 0 #ffffff,
-         0px  2px 0 #ffffff;
+    -webkit-text-stroke: 3px #ffffff;
 }
 
 #date {
     font-size: 1rem;
     margin-top: 10px;
     color: #000000;
-    text-shadow:
-        -1px -1px 0 #fff,
-         0px -1px 0 #fff,
-         1px -1px 0 #fff,
-        -1px  0px 0 #fff,
-         1px  0px 0 #fff,
-        -1px  1px 0 #fff,
-         0px  1px 0 #fff,
-         1px  1px 0 #fff,
-        -2px  0px 0 #fff,
-         2px  0px 0 #fff,
-         0px -2px 0 #fff,
-         0px  2px 0 #fff;
+    -webkit-text-stroke: 1px #ffffff;
 }
