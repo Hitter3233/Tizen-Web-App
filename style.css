@@ -20,11 +20,15 @@ body {
 #clock-container {
     text-align: center;
     color: #000000;
-    /* Soft dark glow behind text ensures it is readable over any image */
     text-shadow:
-    0 0 10px #ffffff,
-    0 0 20px #ffffff,
-    0 0 30px #ffffff;
+        -2px -2px 0 #fff,
+         0   -2px 0 #fff,
+         2px -2px 0 #fff,
+        -2px  0   0 #fff,
+         2px  0   0 #fff,
+        -2px  2px 0 #fff,
+         0    2px 0 #fff,
+         2px  2px 0 #fff;
 }
 
 #time {
